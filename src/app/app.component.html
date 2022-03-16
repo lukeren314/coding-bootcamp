@@ -1,11 +1,7 @@
-<mat-toolbar color="primary">
-  <span style="margin-right:1vw"> {{ title }}</span>
+<mat-toolbar color="primary" class="app-toolbar">
+  <span class="app-title"> {{ title }}</span>
   <button mat-button [routerLink]="'/'">Home</button>
   <button mat-button [routerLink]="'/modules'">Modules</button>
-  <!-- <nav>
-    <a class="button" routerLink="/home" routerLinkActive="activebutton">Home</a> |
-    <a class="button" routerLink="/modules" routerLinkActive="activebutton">Modules</a>
-  </nav> -->
 </mat-toolbar>
 <div class="content" role="main">
   <router-outlet></router-outlet>  

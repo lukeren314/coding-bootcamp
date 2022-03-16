@@ -11,23 +11,23 @@ export class ModulesComponent implements OnInit {
   solutions: any[] = [
     {
       name: 'Module 1 Solutions',
-      link: 'https://drive.google.com/file/d/15QpGwkh0icD0tUQCxLXeYRU_p4Nsa0IX/view?usp=sharing',
+      link: 'https://colab.research.google.com/drive/15jwrhLKwbea0BCGIuYuRupFrZEURJMQQ?usp=sharing',
     },
     {
       name: 'Module 2 Solutions',
-      link: 'https://drive.google.com/file/d/15QpGwkh0icD0tUQCxLXeYRU_p4Nsa0IX/view?usp=sharing',
+      link: 'https://colab.research.google.com/drive/1NuG7oVRxeIDT7oxvbleJD9TZCxTgkbUv?usp=sharing',
     },
     {
       name: 'Module 3 Solutions',
-      link: 'https://drive.google.com/file/d/1GDvzdyetyFPh9cKbj9uzP1mdl_WGacN0/view?usp=sharing',
+      link: 'https://colab.research.google.com/drive/1h55s8rh8_2jPlMmxhS5ei6NFAT416KA6?usp=sharing',
     },
     {
       name: 'Module 4 Solutions',
-      link: 'https://drive.google.com/file/d/1dYR2805RS_DK5C-dc3P_5Jq_AB71b4RP/view?usp=sharing',
+      link: 'https://colab.research.google.com/drive/11todGHUFTpB0FhDiB5FesSqlRDEJ_B36?usp=sharing',
     },
     {
       name: 'Module 5 Solutions',
-      link: 'https://drive.google.com/file/d/1dYR2805RS_DK5C-dc3P_5Jq_AB71b4RP/view?usp=sharing',
+      link: 'https://colab.research.google.com/drive/1j26EXx8YBqiSfUBQo7hLRvANRRRYEK5Y?usp=sharing',
     },
   ];
   constructor() {}

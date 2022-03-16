@@ -1,15 +1,19 @@
 <mat-card>
   <mat-card-title class="title"
-    >Welcome to the totally free Python coding boot camp!</mat-card-title
+    >Welcome to the completely free Python coding boot camp!</mat-card-title
   >
+  <mat-divider [inset]="true"></mat-divider>
   <mat-card class="card">
     <mat-card-title>
       <h2>Introduction</h2>
     </mat-card-title>
     <mat-card-content>
-      Do you want to be able to automatically find all upper div courses in your
-      department sorted by average GPA? In this course, you'll learn the
-      fundamentals of Python and how to apply it to real-world applications.
+      <b
+        >Do you want to be able to automatically find all upper div courses in
+        your department sorted by average GPA?</b
+      >
+      In this course, you'll learn the fundamentals of Python and how to apply
+      it to real-world applications.
     </mat-card-content>
     <mat-card-content>
       If your goal is to take the ICS 31 credit exam, switch into CS or a
@@ -39,7 +43,7 @@
       sorted by average GPA.
     </mat-card-content>
     <mat-card-content>
-      <table mat-table [dataSource]="modules" class="mat-elevation-z8">
+      <table mat-table [dataSource]="modules">
         <ng-container matColumnDef="name">
           <th mat-header-cell *matHeaderCellDef>Module #</th>
           <td mat-cell *matCellDef="let element">{{ element.name }}</td>

@@ -14,3 +14,14 @@
   align-items: center;
   justify-content: center;
 }
+
+.app-title {
+  margin-right: 1vw
+}
+
+.app-toolbar {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1000;
+}
