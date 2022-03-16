@@ -1,5 +1,10 @@
 [
   {
+    "name": "Setup",
+    "content": "Google Colab Installation Instructions",
+    "link": "https://docs.google.com/document/d/1ngieUjrdZaq52EopHTv0NvuFXtaLyQda7fUFP3xtUb8/edit?usp=sharing"
+  },
+  {
     "name": "Module 1",
     "content": "Operators, Variables, Functions, and Data Types",
     "link": "https://drive.google.com/file/d/1iLkNzyEzYvOfpYSlZm43rYGVo0ySo8dU/view?usp=sharing"
