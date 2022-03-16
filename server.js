@@ -3,7 +3,7 @@ const cors = require("cors");
 const morgan = require("morgan");
 const dotenv = require("dotenv");
 const path = require("path");
-const routes = require("./routes"); // import routes from routes/index.js
+// const routes = require("./routes"); // import routes from routes/index.js
 
 // Load environment variables from .env file
 dotenv.config({ path: __dirname + "/.env" });
@@ -17,7 +17,7 @@ app.use(cors());
 app.use(morgan("dev"));
 
 // set up the routes for the api and the static files
-app.use("/api", routes);
+// app.use("/api", routes);
 app.use(express.static(__dirname + '/dist/coding-bootcamp'));
 
 // default route to index.html
