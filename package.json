@@ -44,7 +44,7 @@
     "karma-jasmine-html-reporter": "~1.7.0"
   },
   "engines": {
-    "node": ">=8.0.0",
-    "npm": ">=6.0.0"
+    "node": "16.13.1",
+    "npm": "8.5.2"
   }
 }
