@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Module 1",
+    "content": "Operators, Variables, Functions, and Data Types",
+    "link": "https://drive.google.com/file/d/1iLkNzyEzYvOfpYSlZm43rYGVo0ySo8dU/view?usp=sharing"
+  },
+
+  {
+    "name": "Module 2",
+    "content": "Objects, Conversions, Methods, and Loops",
+    "link": "https://drive.google.com/file/d/1mPHwMk2N8nD2wGm6ULZfwkgfJP0FU6lG/view?usp=sharing"
+  },
+
+  {
+    "name": "Module 3",
+    "content": "Arguments, Inputs, Files, and Exceptions",
+    "link": "https://drive.google.com/file/d/1v1Lk2K33l46SsqzhQJTCvup1hVOnBEw8/view?usp=sharing"
+  },
+
+  {
+    "name": "Module 4",
+    "content": "Dictionaries, Sets, Loops 2.0, and Namedtuples",
+    "link": "https://drive.google.com/file/d/1v1Lk2K33l46SsqzhQJTCvup1hVOnBEw8/view?usp=sharing"
+  },
+
+  {
+    "name": "Module 5",
+    "content": "Random, List Comprehensions, Modules, and Command Line Arguments",
+    "link": "https://drive.google.com/file/d/1v1Lk2K33l46SsqzhQJTCvup1hVOnBEw8/view?usp=sharing"
+  },
+
+  {
+    "name": "Module 6",
+    "content": "TBD",
+    "link": ""
+  },
+
+  {
+    "name": "Module 7",
+    "content": "TBD",
+    "link": ""
+  },
+  {
+    "name": "Module 8",
+    "content": "TBD",
+    "link": ""
+  },
+  {
+    "name": "Module 9",
+    "content": "TBD",
+    "link": ""
+  },
+  {
+    "name": "Module 10",
+    "content": "TBD",
+    "link": ""
+  }
+]

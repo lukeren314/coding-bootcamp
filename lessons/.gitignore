@@ -1,0 +1,13 @@
+# virtual environment
+Include
+Scripts
+Lib
+etc
+pyvenv.cfg
+share
+
+# outputs
+*.txt
+
+# jupyter
+.ipynb_checkpoints

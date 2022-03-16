@@ -1,0 +1,35 @@
+<mat-card>
+  <mat-card-content>
+    Once you open a module, if Google Colab doesn't open automatically, click
+    "Open with Google Colaboratory" to view it. If you do not see that option,
+    you may have to install Google Colab, a Google Chrome extension.
+  </mat-card-content>
+  <mat-card-content>
+    <b>DISCLAIMER</b> Google Colab will NOT save your changes.
+  </mat-card-content>
+  <mat-card-content>
+    Solutions for Coding Activities and Practice Problems are down below.
+  </mat-card-content>
+  <mat-card class="card">
+    <mat-card-title> Modules </mat-card-title>
+    <mat-card-content>
+      <mat-nav-list>
+        <mat-list-item *ngFor="let module of modules">
+          <a matLine href="{{ module.link }}" target="_blank">{{
+            module.name + ": " + module.content
+          }}</a>
+        </mat-list-item>
+      </mat-nav-list>
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="card">
+    <mat-card-title> Module Solutions</mat-card-title
+    ><mat-nav-list>
+      <mat-list-item *ngFor="let solution of solutions">
+        <a matLine href="{{ solution.link }}" target="_blank">{{
+          solution.name
+        }}</a>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-card>
+</mat-card>

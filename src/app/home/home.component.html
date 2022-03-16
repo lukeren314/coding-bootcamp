@@ -1,0 +1,126 @@
+<mat-card>
+  <mat-card-title class="title"
+    >Welcome to the totally free Python coding boot camp!</mat-card-title
+  >
+  <mat-card class="card">
+    <mat-card-title>
+      <h2>Introduction</h2>
+    </mat-card-title>
+    <mat-card-content>
+      Do you want to be able to automatically find all upper div courses in your
+      department sorted by average GPA? In this course, you'll learn the
+      fundamentals of Python and how to apply it to real-world applications.
+    </mat-card-content>
+    <mat-card-content>
+      If your goal is to take the ICS 31 credit exam, switch into CS or a
+      related field, or simply build your practical skills, this course is for
+      you! This boot camp will be split up into 10 weeks of content, with 3
+      parts per week, like a 4-unit college course.
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="card">
+    <mat-card-title>
+      <h2>Course Content</h2>
+    </mat-card-title>
+    <mat-card-content>
+      This course will be divided into 2 parts: The first half of this course
+      will cover the content in ICS 31 at UCI, the fundamentals of Python, which
+      is what you will need if you want to pass the ICS 31 credit exam.
+    </mat-card-content>
+    <mat-card-content>
+      The second half of this course will cover advanced Python concepts and
+      some real-world applications for Python. If you already know how to code
+      in Python, feel free to skip to the second half of this course.
+    </mat-card-content>
+    <mat-card-content>
+      The overall project of this course is to build a search application that
+      will look through all of the courses at UCI, filter them out based on your
+      preferences (i.e. department, unit count, etc.), and then display them
+      sorted by average GPA.
+    </mat-card-content>
+    <mat-card-content>
+      <table mat-table [dataSource]="modules" class="mat-elevation-z8">
+        <ng-container matColumnDef="name">
+          <th mat-header-cell *matHeaderCellDef>Module #</th>
+          <td mat-cell *matCellDef="let element">{{ element.name }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="content">
+          <th mat-header-cell *matHeaderCellDef>Subjects</th>
+          <td mat-cell *matCellDef="let element">{{ element.content }}</td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+      </table>
+    </mat-card-content>
+    <mat-card-content>
+      <b>DISCLAIMER</b>: The first several modules of this course are based
+      heavily on the book:
+      <i
+        >Introduction to Computing Using Python, An Application Development
+        Focus, second edition</i
+      >, by Ljubomir Perkovic (Wiley 2015), since it is the basis for a large
+      portion of the ICS 31 credit exam. Feel free to "obtain" this book,
+      possibly in pdf form, from online if you want more clarification.
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="card">
+    <mat-card-title>
+      <h2>Course Guidelines</h2>
+    </mat-card-title>
+    <mat-card-content>
+      Make sure you follow ALL of these guidelines if possible.
+      <ul>
+        <li>
+          This boot camp is <b>FAST</b> and <b>HARD</b>. Do not feel discouraged
+          if you fall behind or struggle to solve the practice problems. I
+          designed the practice problems to be A. what you'll often come across
+          in the real-world and B. very non-trivial.
+        </li>
+        <li>
+          Schedule a <b>specific time</b> to take each part every week (i.e.
+          Monday, Wednesday, Friday at 2pm). Set a calendar reminder even if you
+          don't use one. This boot camp is as much work as a 4-unit class (if
+          not a little more) so treat it like one.
+        </li>
+        <li>
+          Do <b>not</b> skip the Coding Activities and Practice Problems! These
+          are where you'll really learn the content.
+        </li>
+        <li>
+          Do <b>not</b> look at the solutions before you at try the problem.
+          Seriously. You won't learn anything if you do. But <b>DO</b> look at
+          them once you come up with an answer. If your answer is not similar to
+          the solutions, try and figure out why, and see how you can improve
+          yours.
+        </li>
+      </ul>
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="card">
+    <mat-card-title>
+      <h2>What's next?</h2>
+    </mat-card-title>
+    <mat-card-content>
+      This boot camp by itself will likely not get you a job in tech, but it is
+      enough to get you off your feet in terms of coding. Depending on demand
+      and how much time I have, I may create another boot camp to focus on other
+      topics, such as web development (UI/UX vs Backend Engineering) and job
+      interview prep. If you have suggestions on what I should do next, please
+      let me know using the feedback form below.
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="card">
+    <mat-card-title>
+      <h2>Feedback</h2>
+    </mat-card-title>
+    <mat-card-content>
+      If you have a comment, issue, question, or suggestion, please feel free to
+      leave your feedback anonymously here:
+      <a href="https://forms.gle/i4sdX9K561bxq1vT9" target="_blank"
+        >https://forms.gle/i4sdX9K561bxq1vT9</a
+      >
+    </mat-card-content>
+  </mat-card>
+</mat-card>
