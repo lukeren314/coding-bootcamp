@@ -15,7 +15,7 @@ export class ModulesComponent implements OnInit {
     },
     {
       name: 'Module 2 Solutions',
-      link: 'https://colab.research.google.com/drive/1NuG7oVRxeIDT7oxvbleJD9TZCxTgkbUv?usp=sharing',
+      link: 'https://colab.research.google.com/drive/1X1R6ai3u38QFqIynXFGleVdYz2vqYFwr?usp=sharing',
     },
     {
       name: 'Module 3 Solutions',

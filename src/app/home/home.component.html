@@ -10,16 +10,37 @@
     <mat-card-content>
       <b
         >Do you want to be able to automatically find all upper div courses in
-        your department sorted by average GPA?</b
+        your department at UCI sorted by average GPA?</b
       >
       In this course, you'll learn the fundamentals of Python and how to apply
       it to real-world applications.
     </mat-card-content>
     <mat-card-content>
-      If your goal is to take the ICS 31 credit exam, switch into CS or a
-      related field, or simply build your practical skills, this course is for
-      you! This boot camp will be split up into 10 weeks of content, with 3
-      parts per week, like a 4-unit college course.
+      This boot camp will be split up into 10 weeks of content, with 3 parts per
+      week, like a 4-unit college course.
+    </mat-card-content>
+    <mat-card-content>
+      This boot camp is <b>FOR</b>:
+      <ul>
+        <li>UCI Students looking to take the ICS 31 credit exam.</li>
+        <li>Students who want to switch into CS or a tech-related field.</li>
+        <li>Students looking to add a practical skill to their resume.</li>
+        <li>
+          Students who want to learn Python and apply it to real-world
+          applications.
+        </li>
+      </ul>
+    </mat-card-content>
+    <mat-card-content>
+      This boot camp is <b>NOT FOR</b>:
+      <ul>
+        <li>Students who are already very experienced in Python.</li>
+        <li>
+          Students who already have work experience in a tech-related field.
+        </li>
+        <li>Students who are taking a heavy course load.</li>
+        <li>The faint of heart.</li>
+      </ul>
     </mat-card-content>
   </mat-card>
   <mat-card class="card">
@@ -27,29 +48,43 @@
       <h2>Course Content</h2>
     </mat-card-title>
     <mat-card-content>
-      This course will be taught mainly using interactive lectures and practice
-      problems. We will be using Google Colab (installation is easy), which
-      allows you to run code in the browser and also edit it in real-time.
+      This course will be taught mainly using interactive lecture notes and
+      practice problems rather than videos. We will be using Google Colab
+      (installation is easy), which allows you to run code in the browser and
+      also edit it in real-time.
     </mat-card-content>
     <mat-card-content>
-      The first half of this course will cover the content in ICS 31 at UCI, the
-      fundamentals of Python, which is what you will need if you want to pass
-      the ICS 31 credit exam.
+      The course will be split into 10 modules, with 3 parts per module. This
+      course was designed so that each module should be completed in a week,
+      with each part being completed in a day.
     </mat-card-content>
     <mat-card-content>
-      The second half of this course will cover some advanced Python concepts
-      and real-world applications for Python. If you already know Python, feel
-      free to skip to the second half of this course.
+      The first half of this course will cover the content in ICS 31 at UCI,
+      (i.e. the fundamentals of Python) which is what you will need if you want
+      to pass the ICS 31 credit exam.
     </mat-card-content>
     <mat-card-content>
-      One of the main projects of this course is to build is a search program
-      that will look through all of the courses at UCI, filter them out based on
-      your preferences (i.e. department, unit count, etc.), and then display
-      them sorted by average GPA.
+      The second half of this course will cover some advanced concepts and
+      real-world applications for Python. If you already know Python, feel free
+      to skip to the second half of this course.
     </mat-card-content>
     <mat-card-content>
-      I haven't written all of the modules yet, which means this list will be
-      updated as the quarter goes on.
+      <b>WARNING: </b> The first half of this course is SIGNIFICANTLY more work
+      than the second. I designed it that way so that A. you can get more done
+      while your courses are still ramping up and B. you can get to the fun
+      stuff faster. This means that you will have to hit the ground running week
+      1.
+    </mat-card-content>
+    <mat-card-content>
+      We will build 2 main projects for this course. One of the main projects of
+      this course is to build is a search engine that will look through all of
+      the courses at UCI, filter them out based on your preferences (i.e.
+      department, unit count, etc.), and then display them sorted by average
+      GPA.
+    </mat-card-content>
+    <mat-card-content>
+      The other project is to build an image converter tool that automatically
+      converts files of different image formats (i.e. png to jpg).
     </mat-card-content>
     <mat-card-content>
       <table mat-table [dataSource]="modules">
@@ -84,13 +119,14 @@
       <h2>Course Guidelines</h2>
     </mat-card-title>
     <mat-card-content>
-      Make sure that you follow **ALL** of these guidelines if possible:
+      Make sure that you read and follow <b>ALL</b> of these guidelines if
+      possible:
       <ul>
         <li>
-          This boot camp is <b>FAST</b> and <b>HARD</b>. Do not feel discouraged
-          if you fall behind or struggle to solve the practice problems. I
-          designed the practice problems to be A. types of problems I encounter
-          all the time and B. very non-trivial.
+          This boot camp is <b>FAST</b> and <b>HARD</b>, especially the first 5
+          weeks. Do not feel discouraged if you fall behind or struggle to solve
+          the practice problems. I designed the practice problems to be A. types
+          of problems I encounter all the time and B. very non-trivial.
         </li>
         <li>
           Schedule a <b>specific time</b> to take each module part every week
@@ -105,9 +141,15 @@
         <li>
           Do <b>not</b> look at the solutions before you at try the problem.
           Seriously. You won't learn anything if you do. But <b>DO</b> look at
-          them once you come up with an answer. If your answer is not similar to
-          the solutions, try and figure out why, and see how you can improve
+          them once you've made an honest attempt. If your answer is not similar
+          to the solutions, try and figure out why, and see how you can improve
           yours.
+        </li>
+        <li>
+          Do this boot camp <b>with a friend</b> if you can! Pretend like you're
+          going to lecture together and complete the modules at the same
+          time/place. Keeping each other accountable will make it a lot more
+          bearable.
         </li>
       </ul>
     </mat-card-content>
@@ -118,11 +160,11 @@
     </mat-card-title>
     <mat-card-content>
       This boot camp by itself will likely not get you a job in tech, but it is
-      enough to get started on coding. Depending on demand and how much time I
-      have, I may create another boot camp to focus on other topics, such as web
-      development (UI/UX vs Backend Engineering) and job interview prep. If you
-      have suggestions on what I should do next, please let me know using the
-      feedback form below.
+      enough to get started on coding. The last module in this boot camp will
+      cover what you should do after you've completed this course, as well as
+      how to get a job in software. If you have questions or suggestions on what
+      kinds of resources I should provide next, let me know using the feedback
+      form below.
     </mat-card-content>
   </mat-card>
   <mat-card class="card">
